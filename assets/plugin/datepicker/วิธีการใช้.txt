@@ -1,0 +1,32 @@
+﻿<script src="<?=base_url('assets/js/datepicker/jquery-1.4.4.min.js');?>"></script>
+<script src="<?=base_url('assets/js/datepicker/jquery-ui-1.8.10.offset.datepicker.min.js');?>"></script>
+<link rel="stylesheet" href="<?=base_url('assets/js/datepicker/jquery-ui.css');?>"/>
+
+
+<script>
+  $(function() {
+    var d = new Date();
+    var toDay = d.getDate() + '/' + (d.getMonth() + 1) + '/' + (d.getFullYear() + 543);
+    $( "#datepicker" ).datepicker({
+    	altField: "#datepicker",
+    	dateFormat: 'dd/mm/yy', 
+      isBuddhist: true, 
+      changeMonth: true, 
+      changeYear: true,
+      gotoCurrent: true,
+      defaultDate: toDay, 
+      dayNames: ['อาทิตย์', 'จันทร์', 'อังคาร', 'พุธ', 'พฤหัสบดี', 'ศุกร์', 'เสาร์'],
+      dayNamesMin: ['อา.','จ.','อ.','พ.','พฤ.','ศ.','ส.'],
+      monthNames: ['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'],
+      monthNamesShort: ['ม.ค.','ก.พ.','มี.ค.','เม.ย.','พ.ค.','มิ.ย.','ก.ค.','ส.ค.','ก.ย.','ต.ค.','พ.ย.','ธ.ค.'],
+    	autoSize: true,
+    	showOn: "button",
+      	buttonImage: "<?=base_url('assets/img/x_office_calendar.png');?>",
+      	buttonImageOnly: true,
+      	buttonText: "Select date"
+    });
+  });
+</script>
+
+
+<input type="text" id="datepicker"  value="">

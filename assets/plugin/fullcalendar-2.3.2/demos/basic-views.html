@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<link href='../fullcalendar.css' rel='stylesheet' />
+<link href='../fullcalendar.print.css' rel='stylesheet' media='print' />
+<script src='../lib/moment.min.js'></script>
+<script src='../lib/jquery.min.js'></script>
+<script src='../fullcalendar.min.js'></script>
+<script>
+	function test(id){
+		alert('อิอิ'+id);
+	}
+	$(document).ready(function() {
+		
+		$('#calendar').fullCalendar({
+			viewRender: function(currentView){
+				$(".fc-next-button").hide(); 
+				$(".fc-prev-button").hide(); 
+				$(".fc-today-button").hide();
+			},
+			eventClick: function(calEvent, jsEvent, view) {
+				test(calEvent.id);
+			},
+			eventMouseover: function(calEvent, jsEvent, view) {
+				$(this).css('cursor', 'pointer');
+			},
+			header: {
+				/*
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,basicWeek,basicDay'*/
+			},
+			defaultDate: '2015-08-12',
+			editable: false,
+			eventLimit: true, // allow "more" link when too many events
+			events: [
+				{
+					title: 'การประชุมนำเข้าข้อมูลสถานศึกษาและพัฒนาธุรการโรงเรียนมุ่งสู่ธุรการยุคใหม่',
+					start: '2015-08-01'
+				},
+				{
+					title: 'Long Event',
+					start: '2015-08-07',
+					end: '2015-08-10'
+				},
+				{
+					id: 999,
+					title: 'Repeating Event',
+					start: '2015-08-09T16:00:00'
+				},
+				{
+					id: 999,
+					title: 'Repeating Event',
+					start: '2015-08-16T16:00:00'
+				},
+				{
+					title: 'Conference',
+					start: '2015-08-11',
+					end: '2015-08-13'
+				},
+				{
+					title: 'Meeting',
+					start: '2015-08-12T10:30:00',
+					end: '2015-08-12T12:30:00'
+				},
+				{
+					title: 'Lunch',
+					start: '2015-08-12T12:00:00'
+				},
+				{
+					title: 'Meeting',
+					start: '2015-08-12T14:30:00'
+				},
+				{
+					title: 'Happy Hour',
+					start: '2015-08-12T17:30:00'
+				},
+				{
+					title: 'Dinner',
+					start: '2015-08-12T20:00:00'
+				},
+				{
+					title: 'Birthday Party',
+					start: '2015-08-13T07:00:00'
+				},
+				{
+					title: 'Click for Google',
+					url: 'http://google.com/',
+					start: '2015-08-28'
+				}
+			]
+			,eventColor: '#f7941d'
+			,contentHeight: 360
+		});
+		
+	});
+
+</script>
+<style>
+
+	body {
+		margin: 40px 10px;
+		padding: 0;
+		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		font-size: 14px;
+	}
+
+	#calendar {
+		max-width: 315px;
+		margin: 0 auto;
+	}
+
+</style>
+</head>
+<body>
+
+	<div id='calendar'></div>
+
+</body>
+</html>

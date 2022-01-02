@@ -1,0 +1,19 @@
+@font-face {
+	font-family:'DSN PatPong Extend';
+	src: url('fonts/DSNPatPongExtend/DSNPatPongExtend.eot'); /* IE9 Compat Modes */
+	src: url('fonts/DSNPatPongExtend/DSNPatPongExtend.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('fonts/DSNPatPongExtend/DSNPatPongExtend.woff2') format('woff2'), /* Super Modern Browsers */
+			 url('fonts/DSNPatPongExtend/DSNPatPongExtend.woff') format('woff'), /* Pretty Modern Browsers */
+			 url('fonts/DSNPatPongExtend/DSNPatPongExtend.ttf')  format('truetype'), /* Safari, Android, iOS */
+			 url('fonts/DSNPatPongExtend/DSNPatPongExtend.svg#DSNPatPongExtend') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'ThaiSansLite';
+	src: url('fonts/thaisanslite/thaisanslite_r1.otf');
+	src: url('fonts/thaisanslite/thaisansliter1.eot') format('embedded-opentype'),
+    	 url('fonts/thaisanslite/thaisansliter1.woff') format('woff'),
+    	 url('fonts/thaisanslite/thaisansliter1.ttf') format('truetype'),
+         url('fonts/thaisanslite/thaisansliter1.svg#ThaiSansLite') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

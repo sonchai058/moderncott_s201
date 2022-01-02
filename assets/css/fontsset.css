@@ -1,0 +1,122 @@
+
+@font-face {
+	font-family: 'ABeeZee';
+	src: url('fonts/ABeeZee/ABeeZee-Regular.otf');
+	src: url('fonts/ABeeZee/ABeeZee-Regular.eot') format('embedded-opentype'),
+    	 url('fonts/ABeeZee/ABeeZee-Regular.woff') format('woff'),
+    	 url('fonts/ABeeZee/ABeeZee-Regular.ttf') format('truetype'),
+         url('fonts/ABeeZee/ABeeZee-Regular.svg#ABeeZee') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DroidSans';
+	src: url('fonts/DroidSans/DroidSans.otf');
+	src: url('fonts/DroidSans/DroidSans.eot') format('embedded-opentype'),
+    	 url('fonts/DroidSans/DroidSans.woff') format('woff'),
+    	 url('fonts/DroidSans/DroidSans.ttf') format('truetype'),
+         url('fonts/DroidSans/DroidSans.svg#DroidSans') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DroidSans';
+	src: url('fonts/DroidSans/DroidSans-Bold.otf');
+	src: url('fonts/DroidSans/DroidSans-Bold.eot') format('embedded-opentype'),
+    	 url('fonts/DroidSans/DroidSans-Bold-Bold.woff') format('woff'),
+    	 url('fonts/DroidSans/DroidSans-Bold.ttf') format('truetype'),
+         url('fonts/DroidSans/DroidSans-Bold.svg#DroidSans') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('fonts/Merriweather/Merriweather-Regular.otf');
+	src: url('fonts/Merriweather/Merriweather-Regular.eot') format('embedded-opentype'),
+    	 url('fonts/Merriweather/Merriweather-Regular.woff') format('woff'),
+    	 url('fonts/Merriweather/Merriweather-Regular.ttf') format('truetype'),
+         url('fonts/Merriweather/Merriweather-Regular.svg#Merriweather') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('fonts/Merriweather/Merriweather-Bold.otf');
+	src: url('fonts/Merriweather/Merriweather-Bold.eot') format('embedded-opentype'),
+    	 url('fonts/Merriweather/Merriweather-Bold.woff') format('woff'),
+    	 url('fonts/Merriweather/Merriweather-Bold.ttf') format('truetype'),
+         url('fonts/Merriweather/Merriweather-Bold.svg#Merriweather') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('fonts/Merriweather/Merriweather-Italic.otf');
+	src: url('fonts/Merriweather/Merriweather-Italic.eot') format('embedded-opentype'),
+    	 url('fonts/Merriweather/Merriweather-Italic.woff') format('woff'),
+    	 url('fonts/Merriweather/Merriweather-Italic.ttf') format('truetype'),
+         url('fonts/Merriweather/Merriweather-Italic.svg#Merriweather') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('fonts/Merriweather/Merriweather-BoldItalic.otf');
+	src: url('fonts/Merriweather/Merriweather-BoldItalic.eot') format('embedded-opentype'),
+    	 url('fonts/Merriweather/Merriweather-BoldItalic.woff') format('woff'),
+    	 url('fonts/Merriweather/Merriweather-BoldItalic.ttf') format('truetype'),
+         url('fonts/Merriweather/Merriweather-BoldItalic.svg#Merriweather') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+/*
+@font-face {
+	font-family: 'Merriweather';
+	src: url('fonts/Merriweather/Merriweather-Black.otf');
+	src: url('fonts/Merriweather/Merriweather-Black.eot') format('embedded-opentype'),
+    	 url('fonts/Merriweather/Merriweather-Black.woff') format('woff'),
+    	 url('fonts/Merriweather/Merriweather-Black.ttf') format('truetype'),
+         url('fonts/Merriweather/Merriweather-Black.svg#Merriweather') format('svg');
+	font-weight: normal;
+	font-style: black;
+}
+*/
+/*
+@font-face {
+	font-family: 'Merriweather';
+	src: url('fonts/Merriweather/Merriweather-HeavyItalic.otf');
+	src: url('fonts/Merriweather/Merriweather-HeavyItalic.eot') format('embedded-opentype'),
+    	 url('fonts/Merriweather/Merriweather-HeavyItalic.woff') format('woff'),
+    	 url('fonts/Merriweather/Merriweather-HeavyItalic.ttf') format('truetype'),
+         url('fonts/Merriweather/Merriweather-HeavyItalic.svg#Merriweather') format('svg');
+	font-weight: heavy; // normal
+	font-style: italic; 
+}
+*/
+/*
+@font-face {
+	font-family: 'Merriweather';
+	src: url('fonts/Merriweather/Merriweather-Light.otf');
+	src: url('fonts/Merriweather/Merriweather-Light.eot') format('embedded-opentype'),
+    	 url('fonts/Merriweather/Merriweather-Light.woff') format('woff'),
+    	 url('fonts/Merriweather/Merriweather-Light.ttf') format('truetype'),
+         url('fonts/Merriweather/Merriweather-Light.svg#Merriweather') format('svg');
+	font-weight: normal;
+	font-style: light; // normal
+}
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('fonts/Merriweather/Merriweather-LightItalic.otf');
+	src: url('fonts/Merriweather/Merriweather-LightItalic.eot') format('embedded-opentype'),
+    	 url('fonts/Merriweather/Merriweather-LightItalic.woff') format('woff'),
+    	 url('fonts/Merriweather/Merriweather-LightItalic.ttf') format('truetype'),
+         url('fonts/Merriweather/Merriweather-LightItalic.svg#Merriweather') format('svg');
+	font-weight: light; // normal
+	font-style: italic; 
+}
+*/

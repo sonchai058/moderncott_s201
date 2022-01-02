@@ -1,0 +1,174 @@
+@import "config";
+@include font-face("TH Krub", font-files("TH Krub.ttf"));
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+	font-family: "TH Krub";
+	font-size: 20px;
+}
+
+body {
+
+	background: #F88A39;
+	background-image: url('../images/dot-bg.png');
+	background-image: url('../images/dot-bg.png'), -moz-linear-gradient(top, #F88A39 0%, #E7EEF5 100%);
+	background-image: url('../images/dot-bg.png'), -webkit-gradient(left top, left bottom, color-stop(0%, #F88A39), color-stop(100%, #E7EEF5));
+	background-image: url('../images/dot-bg.png'), -webkit-linear-gradient(top, #F88A39 0%, #E7EEF5 100%);
+	background-image: url('../images/dot-bg.png'), -o-linear-gradient(top, #F88A39 0%, #E7EEF5 100%);
+	background-image: url('../images/dot-bg.png'), -ms-linear-gradient(top, #F88A39 0%, #E7EEF5 100%);
+	background-image: url('../images/dot-bg.png'), linear-gradient(to bottom, #F88A39 0%, #E7EEF5 100%);
+	
+	/*
+	background: #F88A39;
+	background-image: #F88A39;
+	background-image: -moz-linear-gradient(top, #F88A39 0%, #E7EEF5 100%);
+	background-image: -webkit-gradient(left top, left bottom, color-stop(0%, #F88A39), color-stop(100%, #E7EEF5));
+	background-image: -webkit-linear-gradient(top, #F88A39 0%, #E7EEF5 100%);
+	background-image: -o-linear-gradient(top, #F88A39 0%, #E7EEF5 100%);
+	background-image: -ms-linear-gradient(top, #F88A39 0%, #E7EEF5 100%);
+	background-image: linear-gradient(to bottom, #F88A39 0%, #E7EEF5 100%);	
+	*/
+
+}
+
+input, button, textarea {
+	padding: 5px;
+	color: darken($main-gray-dark, 10%);
+}
+
+.#{$w}login{
+	.right_info {
+		margin-top: 10px;
+		font-size: 12px;
+		color: $main-bg-primary2;
+		float: right;
+		clear: both;
+	}
+	margin:13.65% auto;
+	width: 317px;
+	height: 435px;
+	display: table;
+	padding: 10px;
+	background: #304860;
+	-webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.4);
+	box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.4);
+	@include border-radius(2%);
+	.title_login {
+		clear:both;
+		width: 97.5%;
+		height: auto;
+		margin: 0 auto;
+		text-align: center;
+		img {
+			float: left;
+			margin-left: 15px;
+		}
+		a {
+			display: block;
+			width: 106px;
+			height: 106px; 
+			float: left;
+		}
+		.#{$w}name{
+			float: left;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			list-style: none;
+			width: 70%;
+			li {
+				&:first-child {
+					color: $main-white;
+					font-size: 32px;
+				}
+				&:last-child {
+					color: $main-bt-primary;
+					font-size: 26px;
+				}
+			}
+		}
+	}
+	.table_data {
+		margin: 0 auto;
+		clear:both;
+		td {
+			width: 100%;
+			padding: 5px;
+			&:first-child {
+				color: $main-color-primary;
+				font-size: 22px;
+			}
+			input {
+				height: 30px;
+				background-color: $main-white;
+				border: 0;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+		}
+	}
+	.#{$w}data {
+		text-align: center;
+		list-style: none;
+		margin: 20px auto;
+		clear: both;
+		input[type='text'] {
+			font-size: 22px;
+			width: 86px;
+			height: 31px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		li:last-child {
+			margin-top: 10px;
+		}
+		a.loginSubmit {
+			margin: 0 auto;
+			display: block;
+			margin-top: 25px;
+			margin-bottom: 15px;
+			@include border-radius(5px);
+			background-color: $main-bt-primary;
+			border: 1px $main-bt-primary solid;
+			cursor: pointer;
+			width: 80%;
+			height: 35px;
+			text-align: center;
+
+			.#{$w}item{
+				display: table;
+				margin: 5px auto;
+				img {
+					float: left;
+					width: 25px;
+					height: 25px;
+				}
+				span {	
+					float: left;
+					margin-left: 15px;
+					margin-top: 2px;
+					font-size: 22px;
+					color: $main-white;
+				}			
+			}
+
+			@include transition(all .2s ease);
+			&:hover {
+				background-color: darken($main-bt-primary,5%);
+			}
+
+		}
+		.forgot_link {
+			font-size: 22px;
+			color: $main-white;
+			text-decoration: none;
+			@include transition(all .2s ease);
+			&:hover {
+				color: $main-font;
+			}
+		}
+	}
+}

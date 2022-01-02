@@ -1,0 +1,148 @@
+.tools-sprite, .tools-Cancel, .tools-allow, .tools-close, .tools-copy12, .tools-delete-2-xxl, .tools-delete-icon, .tools-delete-icon2, .tools-delete, .tools-down, .tools-edit-icon, .tools-edit-icon2, .tools-edit, .tools-folder47, .tools-icon-add, .tools-icon-post, .tools-icon_sendmail, .tools-ios_search, .tools-magnifier, .tools-minus-icon, .tools-plus-icon, .tools-symbols_news, .tools-symbols_news1, .tools-trangle, .tools-up {
+  background-image: url('../images/tools-s7b6ca5074c.png');
+  background-repeat: no-repeat;
+}
+
+.tools-Cancel {
+  background-position: 0 0;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-allow {
+  background-position: 0 -256px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-close {
+  background-position: 0 -512px;
+  height: 32px;
+  width: 32px;
+}
+
+.tools-copy12 {
+  background-position: 0 -544px;
+  height: 32px;
+  width: 32px;
+}
+
+.tools-delete-2-xxl {
+  background-position: 0 -576px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-delete-icon {
+  background-position: 0 -832px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-delete-icon2 {
+  background-position: 0 -848px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-delete {
+  background-position: 0 -864px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-down {
+  background-position: 0 -1120px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-edit-icon {
+  background-position: 0 -1136px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-edit-icon2 {
+  background-position: 0 -1152px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-edit {
+  background-position: 0 -1408px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-folder47 {
+  background-position: 0 -1424px;
+  height: 32px;
+  width: 32px;
+}
+
+.tools-icon-add {
+  background-position: 0 -1456px;
+  height: 224px;
+  width: 224px;
+}
+
+.tools-icon-post {
+  background-position: 0 -1680px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-icon_sendmail {
+  background-position: 0 -1936px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-ios_search {
+  background-position: 0 -2192px;
+  height: 27px;
+  width: 27px;
+}
+
+.tools-magnifier {
+  background-position: 0 -2219px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-minus-icon {
+  background-position: 0 -2235px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-plus-icon {
+  background-position: 0 -2251px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-symbols_news {
+  background-position: 0 -2267px;
+  height: 38px;
+  width: 26px;
+}
+
+.tools-symbols_news1 {
+  background-position: 0 -2305px;
+  height: 38px;
+  width: 26px;
+}
+
+.tools-trangle {
+  background-position: 0 -2343px;
+  height: 32px;
+  width: 32px;
+}
+
+.tools-up {
+  background-position: 0 -2375px;
+  height: 16px;
+  width: 16px;
+}

@@ -1,0 +1,15 @@
+@mixin glowing(){
+  @include transition(all .5s ease);
+  outline: none;
+  border: 1px solid #DDDDDD;
+  &:focus{
+	  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	  border: 1px solid rgba(81, 203, 238, 1);
+	  @include scale(2);
+  }
+}
+
+@mixin size($w:0px,$h:$w){
+	width: $w;
+	height: $h;
+}

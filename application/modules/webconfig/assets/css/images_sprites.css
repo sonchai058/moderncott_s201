@@ -1,0 +1,100 @@
+.tools-sprite, .tools-Cancel, .tools-allow, .tools-close, .tools-copy12, .tools-delete-2-xxl, .tools-delete-icon, .tools-delete, .tools-down, .tools-edit-icon, .tools-edit, .tools-folder47, .tools-icon-add, .tools-icon-post, .tools-ios_search, .tools-magnifier, .tools-up {
+  background-image: url('../images/tools-sf31b71290f.png');
+  background-repeat: no-repeat;
+}
+
+.tools-Cancel {
+  background-position: 0 0;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-allow {
+  background-position: 0 -256px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-close {
+  background-position: 0 -512px;
+  height: 32px;
+  width: 32px;
+}
+
+.tools-copy12 {
+  background-position: 0 -544px;
+  height: 32px;
+  width: 32px;
+}
+
+.tools-delete-2-xxl {
+  background-position: 0 -576px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-delete-icon {
+  background-position: 0 -832px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-delete {
+  background-position: 0 -848px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-down {
+  background-position: 0 -1104px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-edit-icon {
+  background-position: 0 -1120px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-edit {
+  background-position: 0 -1376px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-folder47 {
+  background-position: 0 -1392px;
+  height: 32px;
+  width: 32px;
+}
+
+.tools-icon-add {
+  background-position: 0 -1424px;
+  height: 224px;
+  width: 224px;
+}
+
+.tools-icon-post {
+  background-position: 0 -1648px;
+  height: 256px;
+  width: 256px;
+}
+
+.tools-ios_search {
+  background-position: 0 -1904px;
+  height: 27px;
+  width: 27px;
+}
+
+.tools-magnifier {
+  background-position: 0 -1931px;
+  height: 16px;
+  width: 16px;
+}
+
+.tools-up {
+  background-position: 0 -1947px;
+  height: 16px;
+  width: 16px;
+}

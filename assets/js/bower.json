@@ -1,0 +1,19 @@
+{
+  "name": "js",
+  "version": "0.0.0",
+  "authors": [
+    "sonchai058 <sonchai058@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4"
+  }
+}
