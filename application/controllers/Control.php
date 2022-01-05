@@ -11,7 +11,7 @@ class Control extends CI_Controller {
 		$this->load->helper(array('url','form', 'general', 'file', 'html', 'asset'));
 		$this->load->model(array('admin_model', 'common_model', 'useful_model', 'files_model'));
 		// $this->load->library('grocery_CRUD');
-		$this->load->library(array('session', 'encrypt', 'email'));
+		$this->load->library(array('session', 'encryption', 'email'));
 		$this->load->library('template',
 			array('name' => 'admin_template1', 'setting' => array('data_output' => ''))
 		);

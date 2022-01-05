@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /moderncott_s201/
+    RewriteBase /ecommerce/dev/
 	AddHandler application/x-httpd-php539 .php .php5 .php4 .php3
 	
     #Removes access to the system folder by users.

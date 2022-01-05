@@ -26,7 +26,7 @@ class Member extends MX_Controller {
 			array('name'=>'admin_template1',
 				  'setting'=>array('data_output'=>''))
 		);
-        $this->load->library('encrypt');
+        $this->load->library('encryption');
 	}
 
 	public function index() {

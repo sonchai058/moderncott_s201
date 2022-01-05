@@ -10,7 +10,7 @@ class Control extends CI_Controller {
 		//$this->load->database();
 
 		$this->load->helper(array('url','form','general','file','html','asset'));
-		$this->load->library(array('session','encrypt'));
+		$this->load->library(array('session','encryption'));
 		//$this->load->model(array('admin_model','common_model','useful_model','webinfo_model','files_model'));
 
 		//$this->admin_model->BlockLevel();

@@ -25,7 +25,7 @@ class Report extends MX_Controller {
 		$this->load->database();
 		$this->load->helper(array('url', 'form', 'general', 'file', 'html', 'asset'));
 		$this->load->model(array('admin_model', 'common_model', 'useful_model', 'files_model'));
-		$this->load->library(array('session', 'encrypt', 'cart', 'grocery_CRUD'));
+		$this->load->library(array('session', 'encryption', 'cart', 'grocery_CRUD'));
 		$this->load->library('template', array('name' => 'admin_template1', 'setting' => array('data_output' => '')));
         $this->load->library('template', array('name' => 'web_template1', 'setting' => array('data_output' => '')));
 	}
